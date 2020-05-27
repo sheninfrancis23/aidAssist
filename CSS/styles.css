@@ -1,0 +1,208 @@
+body{
+  font-family: 'Montserrat';
+}
+
+/* Sections */
+
+.colored-section{
+  background-color: #ff4c68
+}
+.white-section{
+  background-color: #fff;
+}
+/* Headings and Paragraphs */
+h1{
+  font-size: 3rem;
+  line-height: 1.5;
+  font-family: 'Concert One', cursive;
+}
+h2{
+  font-size: 3rem;
+  line-height: 1.5;
+  padding:1rem;
+}
+h3{
+  font-family: 'Concert One', cursive;
+  font-size: 1rem;
+  font-weight: bold;
+}
+p{
+  font-family: 'Montserrat';
+  color: lightgrey;
+}
+em{
+  font-family: 'Montserrat';
+  font-size: 1.5rem;
+  color: #000;
+}
+
+/* Navigation bar */
+.navbar{
+  padding-bottom: 0 0 4.5rem;
+}
+
+.navbar-brand{
+  font-family: 'Concert One', cursive;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.nav-item{
+  padding: 0 15px;
+}
+.nav-link{
+  font-size: 1.2rem;
+  font-family: 'Concert One', cursive;
+}
+
+/* Title */
+
+.col-lg-6{
+  font-family: 'Concert One', cursive;
+  text-align: center;
+  margin: auto;
+}
+.download-button{
+  margin: 5% 3% 5% 0;
+}
+    /* Z-indexing here */
+.title-image{
+  width: 42%;
+  position: relative;
+  bottom: -150px;
+  left: -50px;
+  transform: rotate(-25deg);
+}
+#sliders{
+  /* background-color: white; */
+  position: relative;
+}
+
+/* Product */
+
+.container{
+  /* background-color: #fff; */
+  padding: 30px 0 50px;
+}
+#product{
+  margin-bottom: 0;
+  font-family: 'Concert One', cursive;
+  font-size: 3rem;
+  line-height: 1.5;
+  text-align: center;
+}
+
+/* Features */
+
+.container-fluid{
+  /* background-color: #ff4c68; */
+  padding: 6.3% 15%;
+  color: white;
+}
+.contain{
+  padding: 1rem auto auto 1rem;
+  font-family: 'Concert One', cursive;
+  margin-top: 1rem;
+  text-align: center;
+}
+.feature{
+  padding-top: 10px;
+}
+.icon-feature{
+  margin-bottom: 1rem;
+}
+.icon-feature:hover{
+  color: gainsboro;
+}
+.icon-features{
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  padding-bottom: 1rem;
+}
+.icon-features:hover{
+  color: gainsboro;
+}
+
+ /* Testimonials */
+#testimonials{
+  text-align: center;
+  font-family: 'Concert One', cursive;
+  font-size: 1rem;
+  color: #ef8172;
+  margin: 5px auto;
+}
+
+.testimonial{
+  width: 30%;
+  border-radius: 100%;
+  margin: 20px;
+  height:auto;
+}
+.carousel1{
+  padding: 3% 15%;
+}
+/* Press Coverage */
+
+#press{
+  text-align: center;
+  padding: 10px;
+}
+.press-logo{
+  width: 15%;
+  margin: 30px 20px 100px;
+}
+
+/* Team */
+
+#team{
+  padding: 50px 100px 70px;
+  /* background-color: #ff4c68; */
+  text-align: center;
+  margin-bottom: auto;
+}
+#team-heading{
+  color: white;
+  font-family: 'Concert One', cursive;
+}
+.card-footer{
+  font-family: Montserrat;
+}
+.card-text{
+  font-family: 'Concert One', cursive;
+  margin-top: 5px;
+  color: #ef8172;
+}
+.contact-column{
+  padding: 3% 2%;
+}
+
+/* Mobile adjustments */
+
+@media (max-width:1028px) {
+  .title-image{
+    width: 40%;
+    position: static;
+    transform: rotate(0);
+  }
+  #title{
+    text-align: center;
+  }
+}
+
+/* Last Section and Footer */
+
+#cta{
+  padding: 7% 15%;
+  margin: 100px auto;
+  text-align: center;
+  color: #ef8172;
+  font-family: 'Concert One', cursive;
+}
+#footer{
+  padding: 3px;
+  /* background-color: #ff4c68; */
+  text-align: center;
+  font-size: 0.75rem;
+}
+.footer-icon{
+  margin: 20px 10px;
+}
